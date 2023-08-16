@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de contatos</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,700&family=Roboto:ital@1&display=swap" rel="stylesheet">
+
+</head>
+<body>  
+    <div class="container">
+        <header>
+            <img src="./images/1f4de.png" alt="emoji telefone">
+            <h1>LISTA DE CONTATOS</h1>
+        </header>
+        <form id="form-contato">
+            <input type="text" id="nome-contato" placeholder="Nome" required>
+            <input type="number" id="numero-telefone" placeholder="Número" required>
+            <button type="submit">Salvar +</button>
+        </form>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>
+                        Nome do Contato
+                    </th>
+                    <th>Número de telefone</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            <tfoot>
+            </tfoot>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
